@@ -10,6 +10,7 @@ checkLogged();
 document.getElementById("logout-button").addEventListener("click", logout);
 
 //ADICIONAR LANCAMENTO
+
 document.getElementById("transaction-form").addEventListener('submit', function(e) {
     e.preventDefault();
 

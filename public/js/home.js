@@ -89,14 +89,15 @@ function getCashIn() {
                 <div class="col-12">
                     <h3 class="fs-2">R$ ${cashIn[index].value.toFixed(2)}</h3>
                     <div class="container p-0">
-                    <div class="row">
-                        <div class="col-12 col-md-8">
-                        <p>${cashIn[index].description}</p> 
+                        <div class="row">
+                            <div class="col-12 col-md-8">
+                                <p>${cashIn[index].description}</p> 
+                            </div>
+
+                            <div class="col-12 col-md-3 d-flex justify-content-end">
+                                <span>${cashIn[index].date}</span> 
+                            </div>
                         </div>
-                        <div class="col-12 col-md-3 d-flex justify-content-end">
-                        <span>${cashIn[index].date}</span> 
-                        </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -129,14 +130,15 @@ function getCashOut() {
                 <div class="col-12">
                     <h3 class="fs-2">R$ ${cashOut[index].value.toFixed(2)}</h3>
                     <div class="container p-0">
-                    <div class="row">
-                        <div class="col-12 col-md-8">
-                        <p>${cashOut[index].description}</p> 
+                        <div class="row">
+                            <div class="col-12 col-md-8">
+                                <p>${cashOut[index].description}</p> 
+                            </div>
+                            
+                            <div class="col-12 col-md-3 d-flex justify-content-end">
+                                <span>${cashOut[index].date}</span> 
+                            </div>
                         </div>
-                        <div class="col-12 col-md-3 d-flex justify-content-end">
-                        <span>${cashOut[index].date}</span> 
-                        </div>
-                    </div>
                     </div>
                 </div>
             </div>
