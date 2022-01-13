@@ -15,6 +15,7 @@ document.getElementById("transactions-button").addEventListener("click", functio
 });
 
 //ADICIONAR LANCAMENTO
+
 document.getElementById("transaction-form").addEventListener('submit', function(e) {
     e.preventDefault();
 
@@ -134,7 +135,7 @@ function getCashOut() {
                             <div class="col-12 col-md-8">
                                 <p>${cashOut[index].description}</p> 
                             </div>
-                            
+
                             <div class="col-12 col-md-3 d-flex justify-content-end">
                                 <span>${cashOut[index].date}</span> 
                             </div>
